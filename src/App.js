@@ -2,6 +2,7 @@ import './App.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
 
 function App() {
   return (
@@ -9,35 +10,37 @@ function App() {
       <header className="App-header">
         <Container>
           <Row>
-            <button>Create a note</button>
+            <div className="create-note">
+              <Button>Create a note</Button>
+            </div>
           </Row>
           <Row>
             <Col>
-              <li>
-                <div className="Note-Item New">
+              <li className="li-other">
+                <div className="note-item-new">
                   <p>HELLO HERE</p>
                 </div>
-                <div className="Note-Item New">
+                <div className="note-item-new">
                   <p>HELLO HERE 2</p>
                 </div>
               </li>
             </Col>
             <Col>
-              <li>
-                <div className="Note-Item Complete">
+              <li className="li-other">
+                <div className="note-item-progress">
                   <p>HELLO HERE</p>
                 </div>
-                <div className="Note-Item Complete">
+                <div className="note-item-progress">
                   <p>HELLO HERE 2</p>
                 </div>
               </li>
             </Col>
             <Col>
-              <li>
-                <div className="Note-Item Complete">
+              <li className="li-last">
+                <div className="note-item-complete">
                   <p>HELLO HERE</p>
                 </div>
-                <div className="Note-Item Complete">
+                <div className="note-item-complete">
                   <p>HELLO HERE 2</p>
                 </div>
               </li>
