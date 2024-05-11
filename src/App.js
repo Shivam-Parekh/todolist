@@ -6,60 +6,45 @@ import Col from 'react-bootstrap/Col';
 function App() {
   return (
     <div className="App">
-      <Container>
-        <header className="App-header">
+      <header className="App-header">
+        <Container>
           <Row>
             <button>Create a note</button>
-            <hr
-              style={{
-                color: 'white',
-                backgroundColor: 'blue',
-                height: 5
-              }}
-            />
           </Row>
           <Row>
-            <div className="Note-Column">
-              <Col>
-                <div>
-                  <li>
-                    <div className="Note-Item New">
-                      <p>HELLO HERE</p>
-                    </div>
-                    <div className="Note-Item New">
-                      <p>HELLO HERE 2</p>
-                    </div>
-                  </li>
+            <Col>
+              <li>
+                <div className="Note-Item New">
+                  <p>HELLO HERE</p>
                 </div>
-              </Col>
-              <Col>
-                <div>
-                  <li>
-                    <div className="Note-Item Progress">
-                      <p>HELLO HERE</p>
-                    </div>
-                    <div className="Note-Item Progress">
-                      <p>HELLO HERE 2</p>
-                    </div>
-                  </li>
+                <div className="Note-Item New">
+                  <p>HELLO HERE 2</p>
                 </div>
-              </Col>
-              <Col>
-                <div>
-                  <li>
-                    <div className="Note-Item Complete">
-                      <p>HELLO HERE</p>
-                    </div>
-                    <div className="Note-Item Complete">
-                      <p>HELLO HERE 2</p>
-                    </div>
-                  </li>
+              </li>
+            </Col>
+            <Col>
+              <li>
+                <div className="Note-Item Complete">
+                  <p>HELLO HERE</p>
                 </div>
-              </Col>
-            </div>
+                <div className="Note-Item Complete">
+                  <p>HELLO HERE 2</p>
+                </div>
+              </li>
+            </Col>
+            <Col>
+              <li>
+                <div className="Note-Item Complete">
+                  <p>HELLO HERE</p>
+                </div>
+                <div className="Note-Item Complete">
+                  <p>HELLO HERE 2</p>
+                </div>
+              </li>
+            </Col>
           </Row>
-        </header>
-      </Container>
+        </Container>
+      </header>
     </div>
   );
 }

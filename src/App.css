@@ -12,7 +12,7 @@ li {
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #3aa86c;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -31,13 +31,8 @@ li {
   height: 250px;
   padding: 10px;
   border: 5px solid gray;
+  color: black;
   margin: 0;
-}
-
-.Note-Column {
-  display: "grid"; 
-  gridTemplateColumns: "repeat(3, 1fr)";
-  gridGap: 20;
 }
 
 @keyframes App-logo-spin {
